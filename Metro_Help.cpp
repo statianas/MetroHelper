@@ -4,6 +4,7 @@
 #include <chrono>
 #include <locale.h>
 using namespace std;
+const int INF = INT_MAX;
 
 vector<int> Levit_Algorithm(int s, vector<vector<pair<int,int>>> &graph) {
     int n = graph.size();
